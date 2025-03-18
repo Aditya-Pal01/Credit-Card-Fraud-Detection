@@ -10,21 +10,11 @@ This repository contains an analysis and machine learning models for detecting f
 - **Class Distribution:** Highly imbalanced (99.83% legitimate, 0.17% fraudulent)
 - **Confidentiality:** Due to privacy reasons, the dataset is anonymized
 
-## Project Structure
-```
-├── data/               # Dataset files (not included due to size limitations)
-├── notebooks/          # Jupyter notebooks for EDA and model training
-├── src/                # Source code for data preprocessing and model training
-├── models/             # Saved trained models
-├── results/            # Evaluation metrics and visualizations
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-```
 
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/creditcard-fraud-detection.git
+   git clone https://github.com/Aditya-Pal01/Credit-Card-Fraud-Detection.git
    cd creditcard-fraud-detection
    ```
 2. Install dependencies:
@@ -33,24 +23,6 @@ This repository contains an analysis and machine learning models for detecting f
    ```
 3. Download the dataset from Kaggle and place it in the `data/` directory.
 
-## Usage
-### Exploratory Data Analysis (EDA)
-Run the following Jupyter notebook for data visualization and exploration:
-```sh
-jupyter notebook notebooks/eda.ipynb
-```
-
-### Model Training
-To train a machine learning model, execute the training script:
-```sh
-python src/train_model.py
-```
-
-### Evaluation
-Evaluate the trained model using:
-```sh
-python src/evaluate_model.py
-```
 
 ## Models Used
 - Logistic Regression
@@ -69,9 +41,8 @@ Contributions are welcome! Feel free to submit a pull request or open an issue.
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-- [Machine Learning Group - ULB](https://mlg.ulb.ac.be/)
 - Kaggle for hosting the dataset
 
 ---
-For any questions, feel free to reach out!
+For any questions, feel free to reach out
 
